@@ -60,7 +60,7 @@ Here are the explaination on the parameters in config.ini:
 - **max_mass**: (optional) maximum m/z that is considered for searching 
 - **gaussian_filter**: (optional) Gaussian distribution is used for peak filtering 
 - **align_tolerance_min**: the time tolerance for MS1 and MS2 peak alignment 
-- **unknown_search_mode**: enable searching for unknown modification 
+- **unknown_search_mode**: enable searching for unknown modifications 
 - **min_height_unknow_search**: the MS2 intensity threshold in the unknown search 
 - **flex_mode**: (optional) ignoring of the requirements for monoisotopic distribution of analytes
 
