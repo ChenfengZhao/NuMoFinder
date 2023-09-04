@@ -6,7 +6,7 @@
 
 ## Overview
 
-Monitoring nucleoside modifications are critical to the general area of epigenetic and epitranscriptomic research, as a large majority of DNAs and RNAs are modified. NuMoFinder is an open-source software tool developed using Python and the MatchMS library. It's designed to automatically identify and quantify the peaks of nucleic acid modifications referred from Modomics and DNAmod databases. Meanwhile, NuMoFinder incorporates the unknown modification (untargeted) search relying on the major ribose/deoxyribose lost product ions of nucleosides generated from collision-induced dissociation (CID). This tool can be installed on all kinds of platforms (e.g., Linux, macOS, Windows, etc).
+Monitoring nucleoside modifications are critical to the general area of epigenetic and epitranscriptomic research, as a large majority of DNAs and RNAs are modified. NuMoFinder is an open-source software tool developed using Python and the MatchMS library. It's designed to automatically identify and quantify the peaks of nucleic acid modifications referred from Modomics and DNAmod databases across a series of mass spectrometry files. Meanwhile, NuMoFinder incorporates the unknown modification (untargeted) search relying on the major ribose/deoxyribose lost product ions of nucleosides generated from collision-induced dissociation (CID). This tool can be installed on all kinds of platforms (e.g., Linux, macOS, Windows, etc).
 
 ## Requirements
 
@@ -42,7 +42,6 @@ git clone https://github.com/ChenfengZhao/NuMoFinder.git
 The github repository is composed of the following parts:
 - **NuMoFinder.py** & **extract_dataset_info.py**  contain the python code of NuMoFinder.
 - **config.ini** is to configure the internal parameters of the tool.
-- **XXX.mzXML** is an example MS data file.
 - **CustomizedMods.csv** (optional) provides the searching of user-defined databases if needed.
 
 Here are the explaination on the parameters in config.ini:
@@ -82,7 +81,7 @@ cd <the path of NuMoFinder.py>
 python3 NuMoFinder.py
 ```
 
-4. The results will be generated under the path defined in the **output_path** of config.ini (e.g., ExampleDataset/Results/ in this example). It contains the individual results of each compound and MS data file, combined results of all the compounds and each MS data file, and combined results of all the compounds and MS data files.
+4. The results will be generated under the path defined in the **output_path** of config.ini (e.g., ./result/ in this example). It contains the individual results of each compound for each MS data file (i.e., NuMo_Result_XXX.csv), combined results of all the compounds in each MS data file (i.e., NuMo_Results_XXX.csv), and the results of unknow search mode (i.e., Unknown_Search_Result.csv) if this mode is enabled.
 
 
 
