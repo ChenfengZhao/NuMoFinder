@@ -6,7 +6,7 @@
 
 ## Overview
 
-Monitoring nucleoside modifications are critical to the general area of epigenetic and epitranscriptomic research, as a large majority of DNAs and RNAs are modified. NuMoFinder is an open-source software tool developed using Python and the MatchMS library. It's designed to automatically identify and quantify the peaks of nucleic acid modifications referred from Modomics and DNAmod databases across a series of mass spectrometry files Meanwhile, NuMoFinder incorporates the unknown modification (untargeted) search relying on the major ribose/deoxyribose lost product ions of nucleosides generated from collision-induced dissociation (CID). This tool can be installed on all kinds of platforms (e.g., Linux, macOS, Windows, etc).
+Monitoring nucleoside modifications are critical to the general area of epigenetic and epitranscriptomic research, as a large majority of DNAs and RNAs are modified. NuMoFinder is an open-source software tool developed using Python and the MatchMS library. It's designed to automatically identify and quantify the peaks of nucleic acid modifications referred from Modomics and DNAmod databases. Meanwhile, NuMoFinder incorporates the unknown modification (untargeted) search relying on the major ribose/deoxyribose lost product ions of nucleosides generated from collision-induced dissociation (CID). This tool can be installed on all kinds of platforms (e.g., Linux, macOS, Windows, etc).
 
 ## Requirements
 
