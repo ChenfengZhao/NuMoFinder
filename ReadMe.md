@@ -93,8 +93,8 @@ The source code of this project is released under the [Apache 2.0 License][Apach
 ## Citation
 If you think NuMoFinder is helpful for your research, please cite the following paper:
 
-Xie, Y., Vitorino, F.N.D.L., Chen, Y., Lempiäinen, J.K., Zhao, C., Steinbock, R.T., Liu, X., Lin, Z., Zahn, E., Garcia, A.L. and Weitzman, M.D., (2023). SWAMNA: a comprehensive platform for analysis of nucleic acid modifications. Chemical Communications, https://doi.org/10.1039/D3CC04402E
+Xie, Y; De Luna Vitorino, F.N.; Chen, Y; Lempiäinen, J. K.; Zhao, C.; Steinbock, R. T.; Liu, X.; Lin, Z.; Zahn, E.; Garcia, A. L.; Weitzman, M. D.; Garcia, B. A., SWAMNA: a comprehensive platform for analysis of nucleic acid modifications. *Chemical Communications* **2023**
 
-[ChemComm version](https://pubs.rsc.org/en/content/articlelanding/2023/CC/D3CC04402E)
+[ChemComm version](https://doi.org/10.1039/D3CC04402E)
 
 [ChemRxiv version](https://chemrxiv.org/engage/chemrxiv/article-details/64f6a89079853bbd781e9eb7)
